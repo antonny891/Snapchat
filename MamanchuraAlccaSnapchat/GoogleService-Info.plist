@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDc_YIOCPjp6rtgt1VDzt8BdLaTcbanAno</string>
+	<key>GCM_SENDER_ID</key>
+	<string>767032243255</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>deah.com.MamanchuraAlccaSnapchat</string>
+	<key>PROJECT_ID</key>
+	<string>snapchat-a20f5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>snapchat-a20f5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:767032243255:ios:3dd9607ce4a99c1571bbb2</string>
+</dict>
+</plist>

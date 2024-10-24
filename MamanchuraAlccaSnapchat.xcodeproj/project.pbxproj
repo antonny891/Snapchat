@@ -25,6 +25,8 @@
 		E2A2CF402CC08CFC006CC72B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E2A2CF3F2CC08CFC006CC72B /* FirebaseFirestore */; };
 		E2A2CF422CC08CFC006CC72B /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = E2A2CF412CC08CFC006CC72B /* FirebaseFunctions */; };
 		E2A2CF442CC08CFC006CC72B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E2A2CF432CC08CFC006CC72B /* FirebaseStorage */; };
+		E2AFBE532CC9C54E00FE3E70 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AFBE522CC9C54E00FE3E70 /* SnapsViewController.swift */; };
+		E2AFBE552CC9D0F300FE3E70 /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AFBE542CC9D0F300FE3E70 /* ImagenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		E2A2CF242CC0822E006CC72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2A2CF262CC0822E006CC72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2A2CF2C2CC08725006CC72B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2AFBE512CC9C13200FE3E70 /* MamanchuraAlccaSnapchat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MamanchuraAlccaSnapchat.entitlements; sourceTree = "<group>"; };
+		E2AFBE522CC9C54E00FE3E70 /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		E2AFBE542CC9D0F300FE3E70 /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,7 @@
 		E2A2CF172CC0822B006CC72B /* MamanchuraAlccaSnapchat */ = {
 			isa = PBXGroup;
 			children = (
+				E2AFBE512CC9C13200FE3E70 /* MamanchuraAlccaSnapchat.entitlements */,
 				E2A2CF2C2CC08725006CC72B /* GoogleService-Info.plist */,
 				E2A2CF182CC0822B006CC72B /* AppDelegate.swift */,
 				E2A2CF1A2CC0822C006CC72B /* SceneDelegate.swift */,
@@ -88,6 +94,8 @@
 				E2A2CF212CC0822E006CC72B /* Assets.xcassets */,
 				E2A2CF232CC0822E006CC72B /* LaunchScreen.storyboard */,
 				E2A2CF262CC0822E006CC72B /* Info.plist */,
+				E2AFBE522CC9C54E00FE3E70 /* SnapsViewController.swift */,
+				E2AFBE542CC9D0F300FE3E70 /* ImagenViewController.swift */,
 			);
 			path = MamanchuraAlccaSnapchat;
 			sourceTree = "<group>";
@@ -180,6 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AFBE532CC9C54E00FE3E70 /* SnapsViewController.swift in Sources */,
+				E2AFBE552CC9D0F300FE3E70 /* ImagenViewController.swift in Sources */,
 				E2A2CF1D2CC0822C006CC72B /* iniciarSesionViewController.swift in Sources */,
 				E2A2CF192CC0822B006CC72B /* AppDelegate.swift in Sources */,
 				E2A2CF1B2CC0822C006CC72B /* SceneDelegate.swift in Sources */,
@@ -327,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MamanchuraAlccaSnapchat/MamanchuraAlccaSnapchat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -354,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MamanchuraAlccaSnapchat/MamanchuraAlccaSnapchat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
